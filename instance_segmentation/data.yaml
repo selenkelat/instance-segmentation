@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['guitar', 'piano', 'trumpet']
+
+roboflow:
+  workspace: computer-vision-1pjut
+  project: segmentation-vgyfe
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/computer-vision-1pjut/segmentation-vgyfe/dataset/4
